@@ -1,6 +1,8 @@
 # ArknightsTagFilter
 依照贴吧用户“那一眼风采”的理念编写的简单python程序，用于筛选覆盖面最广的干员Tag
-## 1、安装方法
+## 1、使用效果
+![image](https://github.com/skjgsk/ArknightsTagFilter/blob/master/img/ex.png)  
+## 2、安装方法
 ### 方法一：下载可执行文件  
 点击页面上的release标签，找到最新版本的Tag.exe下载后直接运行
 ### 方法二：下载Python源码执行
