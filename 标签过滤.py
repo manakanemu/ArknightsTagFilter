@@ -49,12 +49,12 @@ def main():
                             best_tags[3] = message
             # print('{:<19}\t{:<9}\t其中包含的5星、4星、全部干员数分别为：{}'.format('覆盖5星干员最多的标签组合：',      best_tags[0],str(best[0][0])+' '+str(best[0][1])+' '+str(best[0][2])))
             # print('{:<19}\t{:<9}\t其中包含的5星、4星、全部干员数分别为：{}'.format('覆盖4星干员最多的标签组合：',      best_tags[1],str(best[1][0])+' '+str(best[1][1])+' '+str(best[1][2])))
-            # print('{:<19}\t{:<9}\t其中包含的5星、4星、全部干员数分别为：{}'.format('覆盖5星和4星干员最多的标签组合：',  best_tags[2],str(best[2][0])+' '+str(best[2][1])+' '+str(best[2][2])))
-            # print('{:<19}\t{:<9}\t其中包含的5星、4星、全部干员数分别为：{}'.format('覆盖全部干员最多的标签组合：',      best_tags[3],str(best[3][0])+' '+str(best[3][1])+' '+str(best[3][2])))
+            # print('{:<19}\t{:<9}\t其中包含的5星、4星、全部干员数分别为：{}'.format('覆盖5星和4星干员最多的标签组合：',  best_tags[3],str(best[3][0])+' '+str(best[3][1])+' '+str(best[3][2])))
+            # print('{:<19}\t{:<9}\t其中包含的5星、4星、全部干员数分别为：{}'.format('覆盖全部干员最多的标签组合：',      best_tags[2],str(best[2][0])+' '+str(best[2][1])+' '+str(best[2][2])))
             print('{:<19}\t{:<9}'.format('覆盖5星干员最多的标签组合：',      best_tags[0]))
             print('{:<19}\t{:<9}'.format('覆盖4星干员最多的标签组合：',      best_tags[1]))
-            print('{:<19}\t{:<9}'.format('覆盖5星和4星干员最多的标签组合：',  best_tags[2]))
-            print('{:<19}\t{:<9}'.format('覆盖全部干员最多的标签组合：',      best_tags[3]))
+            print('{:<19}\t{:<9}'.format('覆盖5星和4星干员最多的标签组合：',  best_tags[3]))
+            print('{:<19}\t{:<9}'.format('覆盖全部干员最多的标签组合：',      best_tags[2]))
         except:
             traceback.print_exc()
 
